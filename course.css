@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.course{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #032530;
+}
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+.course h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.course p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: white;
+}
+span{
+    color: palevioletred;
+}
+span:hover{
+    color: paleturquoise;
+}
+.row{
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 3%;
+     display:flex;
+     justify-content: space-between;
+}
+.vis h1{
+    color: black;
+}
+.vis p{
+    color: #032530;
+}
+.course-col{
+    flex-basis: 45%;
+    background:#fad3d3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: black; 
+}
+.course-col img{
+    width: 45%;
+    height: 50%;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.know{
+    display: inline-block;
+    text-decoration: none;
+    color: #f5f0f0;
+    border: 1px solid #7f7a7a;
+    padding: 10px 30px;
+    font-size: 13px;
+    background: black;
+}
+.know:hover{
+    border:1px solid #f44336 ;
+    background: #f44336;
+    transition: 1s;
+}
+.career {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.us{
+    flex-basis: 31%;
+    background:transparent;
+    border: 2px solid rgb(99, 97, 97);
+    border-radius: 6px;
+    margin-bottom: 5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.us:hover{
+    box-shadow:  0 0 20px 0px rgba(0,0,0,0.2);
+}
+.us h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+}
+.us p{
+    color: black;
+}
+.career1 {
+   
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.us1{
+    flex-basis: 31%;
+    background: transparent;
+    border: 2px solid rgb(99, 97, 97);
+    border-radius: 6px;
+    margin-bottom: 5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.us1:hover{
+    box-shadow:  0 0 20px 0px rgba(0,0,0,0.2);
+}
+.us1 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+}
+.us1 p{
+    color: black;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.testimonials p{
+    color: black;
+}
+.live{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+    position: relative;
+    width: 70%;
+    height:20vh;
+    background: #032530;
+}
+.attend{
+    flex-basis: 31%;
+    background: transparent;
+    border: 2px solid rgb(99, 97, 97);
+    border-radius: 20px;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 50px;
+    padding-right: 50%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-color: #032530;
+   
+}
+.attend h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+   padding-left: 20px;
+   padding-top: 6px;
+}
+.attend h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.attend p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: white;
+}
+.know1{
+    display: inline-block;
+    text-decoration: none;
+    color: #f5f0f0;
+    border: 1px solid #7f7a7a;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: rgb(252, 127, 127);
+}
+.know1:hover{
+    border:1px solid #f44336 ;
+    background: #6840fa;
+    transition: 1s;
+}
